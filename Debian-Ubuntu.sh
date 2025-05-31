@@ -17,8 +17,7 @@ sudo curl -sS --compressed -o /etc/apt/sources.list.d/Floorp.list 'https://ppa.f
 # Update Package Lists
 # sudo apt update
 
-# Adds 32 bit packages, Update Package Lists, and install WINE +
-# 32-bit Libraries (Mainly for Lutris).
+# Adds 32 bit packages, Update Package Lists, and install WINE + 32-bit Libraries (Mainly for Lutris).
 sudo dpkg --add-architecture i386 && sudo apt update && sudo apt install -y wine64 wine32 libasound2-plugins:i386 libsdl2-2.0-0:i386 libdbus-1-3:i386 libsqlite3-0:i386
 
 # Install Apps/Libraries
