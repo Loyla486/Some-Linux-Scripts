@@ -1,0 +1,1 @@
+# **Scripts Come "AS-IS", and I am not resposible for any damage(s) caused. USE AT YOUR OWN RISK!**
