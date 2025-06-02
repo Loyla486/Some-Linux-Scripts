@@ -26,9 +26,9 @@ sudo dpkg --add-architecture i386 && sudo apt update && sudo apt install -y wine
 # Browsers
 sudo apt install -y brave-browser
 sudo apt install -y floorp
-sudo apt install -y lutris
 
 # Gaming Stuff
+sudo apt install -y lutris
 sudo apt install -y mangohud
 sudo apt install -y gamescope
 sudo apt install -y libvulkan1
