@@ -1,5 +1,5 @@
 #!/bin/bash
-# Intended for Debian/Unbuntu Based Distros!
+# Intended for Debian/Unbuntu Based Distros and new installs!
 # Ensure curl is installed
 sudo apt install -y curl
 
