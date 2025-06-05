@@ -43,7 +43,7 @@ sudo apt install -y gparted
 sudo apt install -y git
 
 # Upgrade All Installed Packages
-sudo apt upgrade
+sudo apt upgrade -y
 
 # Clean Package Cache
 sudo apt clean
