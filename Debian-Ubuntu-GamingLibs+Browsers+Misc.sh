@@ -3,11 +3,11 @@
 # Ensure curl is installed
 sudo apt install -y curl
 
-# Add Lutris Repository (Code taken from Lutris Website)
+# Add Lutris Repository (Code taken from Lutris Website) https://lutris.net/downloads
 echo "deb [signed-by=/etc/apt/keyrings/lutris.gpg] https://download.opensuse.org/repositories/home:/strycore/Debian_12/ ./" | sudo tee /etc/apt/sources.list.d/lutris.list > /dev/null
 wget -q -O- https://download.opensuse.org/repositories/home:/strycore/Debian_12/Release.key | gpg --dearmor | sudo tee /etc/apt/keyrings/lutris.gpg > /dev/null
 
-# Add Brave Repository (Code taken from Brave Website)
+# Add Brave Repository (Code taken from Brave Website) https://brave.com/linux/ Could also use: curl -fsS https://dl.brave.com/install.sh | sh
 sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
 echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
 
