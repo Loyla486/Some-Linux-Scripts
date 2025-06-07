@@ -1,5 +1,7 @@
 #!/bin/bash
-# Intended for Debian/Unbuntu Based Distros and new installs!
+# Intended for Debian/Unbuntu Based Distros, with 128GB+ (118GiB+) of storage
+# Version 3
+
 # Ensure curl is installed
 sudo apt install -y curl
 
