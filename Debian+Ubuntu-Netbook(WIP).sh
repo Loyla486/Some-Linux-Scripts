@@ -13,7 +13,7 @@ echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] http
 curl -fsSL https://ppa.floorp.app/KEY.gpg | sudo gpg --dearmor -o /usr/share/keyrings/Floorp.gpg
 sudo curl -sS --compressed -o /etc/apt/sources.list.d/Floorp.list 'https://ppa.floorp.app/Floorp.list'
 
-# Add 32-bit Libraries, and update the package lists.
+# Add 32-bit Library Support, and update the package lists.
 sudo dpkg --add-architecture i386
 sudo apt update
 
