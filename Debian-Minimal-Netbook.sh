@@ -5,10 +5,6 @@
 # Ensure curl is installed
 sudo apt install -y curl
 
-# Add Lutris Repository (Code taken from Lutris Website) https://lutris.net/downloads
-echo "deb [signed-by=/etc/apt/keyrings/lutris.gpg] https://download.opensuse.org/repositories/home:/strycore/Debian_12/ ./" | sudo tee /etc/apt/sources.list.d/lutris.list > /dev/null
-wget -q -O- https://download.opensuse.org/repositories/home:/strycore/Debian_12/Release.key | gpg --dearmor | sudo tee /etc/apt/keyrings/lutris.gpg > /dev/null
-
 # Add Brave Repository (Code taken from Brave Website) https://brave.com/linux/ Could also use: curl -fsS https://dl.brave.com/install.sh | sh
 sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
 echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
@@ -17,11 +13,10 @@ echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] http
 curl -fsSL https://ppa.floorp.app/KEY.gpg | sudo gpg --dearmor -o /usr/share/keyrings/Floorp.gpg
 sudo curl -sS --compressed -o /etc/apt/sources.list.d/Floorp.list 'https://ppa.floorp.app/Floorp.list'
 
+# Add 32-bit Libraries, and update the package lists.
 sudo dpkg --add-architecture i386 && sudo apt update
 
-# Install Apps/Libraries
-# Installing GameScope this way only works on Debian for now,
-# however it shouldn't hurt on an Ubuntu-Based system, it just may not install. GameScope may not work with Nvidia GPUs anyway.
+# Install Apps/Libraries:
 
 # Browsers
 sudo apt install -y brave-browser
