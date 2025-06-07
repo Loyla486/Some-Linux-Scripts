@@ -14,7 +14,8 @@ curl -fsSL https://ppa.floorp.app/KEY.gpg | sudo gpg --dearmor -o /usr/share/key
 sudo curl -sS --compressed -o /etc/apt/sources.list.d/Floorp.list 'https://ppa.floorp.app/Floorp.list'
 
 # Add 32-bit Libraries, and update the package lists.
-sudo dpkg --add-architecture i386 && sudo apt update
+sudo dpkg --add-architecture i386
+sudo apt update
 
 # Install Apps/Libraries:
 
