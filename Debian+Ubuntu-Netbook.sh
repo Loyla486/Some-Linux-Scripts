@@ -1,5 +1,6 @@
 #!/bin/bash
-# Intended for Debian/Unbuntu Based Distros and new installs!
+# Intended for Debian/Unbuntu Based Distros and 
+# netbooks with low storage (32GB-64GB/28GiB-58GiB)
 # Version 1
 
 # Ensure curl is installed
