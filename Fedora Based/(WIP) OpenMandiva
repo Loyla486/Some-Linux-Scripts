@@ -1,2 +1,2 @@
 # Install Lutris
-sudo dnf install lutris
+sudo dnf install lutris -y
