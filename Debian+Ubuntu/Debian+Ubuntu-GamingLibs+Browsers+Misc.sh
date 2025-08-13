@@ -1,5 +1,5 @@
 #!/bin/bash
-# Intended for Debian/Unbuntu Based Distros, with 128GB+ (118GiB+) of storage
+# Intended for Debian/Unbuntu Based Distros, with 128GB+ (118GiB+) of storage and for gaming.
 # Version 3
 
 # Ensure curl is installed
