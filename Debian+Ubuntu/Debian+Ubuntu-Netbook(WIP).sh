@@ -1,6 +1,6 @@
 #!/bin/bash
 # Intended for Debian/Unbuntu Based Distros and netbooks with low storage (32GB-64GB/28GiB-58GiB)
-# Version 1
+# Version 2
 
 # Ensure curl is installed
 sudo apt install -y curl
@@ -14,7 +14,7 @@ curl -fsSL https://ppa.floorp.app/KEY.gpg | sudo gpg --dearmor -o /usr/share/key
 sudo curl -sS --compressed -o /etc/apt/sources.list.d/Floorp.list 'https://ppa.floorp.app/Floorp.list'
 
 # Add 32-bit Library Support, and update the package lists.
-sudo dpkg --add-architecture i386
+# sudo dpkg --add-architecture i386
 sudo apt update
 
 # Install Apps/Libraries:
@@ -25,7 +25,7 @@ sudo apt install -y floorp
 
 # Other Libraries
 sudo apt install -y libvulkan1
-sudo apt install -y libvulkan1:i386
+# sudo apt install -y libvulkan1:i386
 
 # Utilities
 sudo apt install -y hardinfo
