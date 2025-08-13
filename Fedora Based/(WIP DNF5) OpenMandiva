@@ -1,9 +1,16 @@
 #!/bin/bash
-# Make sure curl is installed
+# Intended for OpenMandriva based distros, and for new installs.
+# This script may not work well on gaming based distros since those come with needed libraries installed.
+# THIS SCRIPT IS A WORK IN PROGRESS, USE AT YOUR OWN RISK!
+
+# Ensure curl is installed
 sudo dnf install -y curl
 
 # Install Brave
 curl -fsS https://dl.brave.com/install.sh | sh
+
+#Install Floorp (Flatpak version)
+flatpak install flathub one.ablaze.floorp -y
 
 # Gaming Stuff + Lutris
 sudo dnf install -y lutris
@@ -12,7 +19,6 @@ sudo dnf install -y gamescope
 sudo dnf install -y wine
 
 # Utilities
-# sudo dnf install -y hardinfo
 sudo dnf install -y hardinfo2
 sudo dnf install -y lm-sensors psensor
 sudo dnf install -y neofetch
