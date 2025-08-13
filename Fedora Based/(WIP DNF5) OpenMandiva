@@ -3,7 +3,7 @@
 # This script may not work well on gaming based distros since those come with needed libraries installed.
 # THIS SCRIPT IS A WORK IN PROGRESS, USE AT YOUR OWN RISK!
 
-# Ensure curl is installed
+# Ensure Curl is installed
 sudo dnf -y install curl
 
 # Install Brave
