@@ -9,12 +9,11 @@ curl -fsS https://dl.brave.com/install.sh | sh
 sudo dnf install -y lutris
 sudo dnf install -y mangohud
 sudo dnf install -y gamescope
-sudo dnf install wine -y
-# sudo dnf install -y libvulkan1
-# sudo dnf install -y libvulkan1:i386
+sudo dnf install -y wine
 
 # Utilities
-sudo dnf install -y hardinfo
+# sudo dnf install -y hardinfo
+sudo dnf install -y hardinfo2
 sudo dnf install -y lm-sensors psensor
 sudo dnf install -y neofetch
 sudo dnf install -y htop
