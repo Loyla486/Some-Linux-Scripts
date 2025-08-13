@@ -1,1 +1,1 @@
-sudo spt install breeze-cursor-theme -y
+sudo apt install breeze-cursor-theme -y
