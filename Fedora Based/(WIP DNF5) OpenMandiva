@@ -13,7 +13,7 @@ curl -fsS https://dl.brave.com/install.sh | sh
 #sudo dnf config-manager addrepo --from-repofile=https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
 #sudo dnf -y install brave-browser
 
-#Install Floorp (Flatpak version)
+# Install Floorp (Flatpak version)
 flatpak install flathub one.ablaze.floorp -y
 
 # Gaming Stuff + Lutris
@@ -33,8 +33,8 @@ sudo dnf -y install git
 # Upgrade All Installed Packages
 sudo dnf -y distro-sync
 
-#Other
-sudo dnf -y install brave-browser
+# Other
+#sudo dnf -y install brave-browser
 
 # Clean Up
 sudo dnf -y clean all
