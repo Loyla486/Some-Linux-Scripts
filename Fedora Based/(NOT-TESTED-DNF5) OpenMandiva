@@ -6,9 +6,7 @@
 # Ensure Curl is installed
 sudo dnf -y install curl
 
-# Install Brave
-#curl -fsS https://dl.brave.com/install.sh | sh
-#or
+# Install Brave (or "curl -fsS https://dl.brave.com/install.sh | sh")
 sudo dnf install dnf-plugins-core
 sudo dnf config-manager addrepo --from-repofile=https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
 sudo dnf -y install brave-browser
