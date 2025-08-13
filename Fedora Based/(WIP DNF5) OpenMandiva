@@ -4,7 +4,7 @@
 # THIS SCRIPT IS A WORK IN PROGRESS, USE AT YOUR OWN RISK!
 
 # Ensure curl is installed
-sudo dnf install -y curl
+sudo dnf -y install curl
 
 # Install Brave
 curl -fsS https://dl.brave.com/install.sh | sh
@@ -13,20 +13,20 @@ curl -fsS https://dl.brave.com/install.sh | sh
 flatpak install flathub one.ablaze.floorp -y
 
 # Gaming Stuff + Lutris
-sudo dnf install -y lutris
-sudo dnf install -y mangohud
-sudo dnf install -y gamescope
-sudo dnf install -y wine
+sudo dnf -y install lutris
+sudo dnf -y install mangohud
+sudo dnf -y install gamescope
+sudo dnf -y install wine
 
 # Utilities
-sudo dnf install -y hardinfo2
-sudo dnf install -y lm-sensors psensor
-sudo dnf install -y neofetch
-sudo dnf install -y htop
-sudo dnf install -y gparted
-sudo dnf install -y git
+sudo dnf -y install hardinfo2
+sudo dnf -y install lm-sensors psensor
+sudo dnf -y install neofetch
+sudo dnf -y install htop
+sudo dnf -y install gparted
+sudo dnf -y install git
 
 # Upgrade All Installed Packages
-sudo dnf distro-sync -y
+sudo dnf -y distro-sync
 
 sudo dnf clean all
