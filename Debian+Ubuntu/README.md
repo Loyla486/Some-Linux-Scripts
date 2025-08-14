@@ -1,1 +1,1 @@
-# *These scripts are intended for Debian (by extension Ubuntu) based distros.*
+# These scripts are intended for Debian and Ubuntu based distros.
