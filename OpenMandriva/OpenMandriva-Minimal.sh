@@ -1,8 +1,9 @@
 #!/bin/bash
 # Intended for OpenMandriva (or Fedora 40 or Under) based distros, and for new installs.
+# Also intended for low stoarge PCs (32GB-64GB).
 # This script may not work well on gaming based distros since those come with needed libraries installed.
 # USE AT YOUR OWN RISK!
-# Version 2
+# Version 1
 
 # Ensure Curl is installed
 sudo dnf -y install curl
