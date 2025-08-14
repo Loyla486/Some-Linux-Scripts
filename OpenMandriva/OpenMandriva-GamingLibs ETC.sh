@@ -24,6 +24,7 @@ sudo dnf -y install wine
 
 # Utilities
 sudo dnf -y install hardinfo2
+sudo dnf -y install iperf
 # sudo dnf -y install lm-sensors 
 # sudo dnf -y install psensor
 sudo dnf -y install neofetch
