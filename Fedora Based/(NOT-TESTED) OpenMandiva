@@ -1,5 +1,5 @@
 #!/bin/bash
-# Intended for OpenMandriva (or Fedora 41+) based distros, and for new installs.
+# Intended for OpenMandriva (or Fedora 41 or Under) based distros, and for new installs.
 # This script may not work well on gaming based distros since those come with needed libraries installed.
 # THIS SCRIPT IS A WORK IN PROGRESS, USE AT YOUR OWN RISK!
 
@@ -9,7 +9,7 @@ sudo dnf -y install curl
 # Install Brave (or "curl -fsS https://dl.brave.com/install.sh | sh")
 # Taken and modified from "https://brave.com/linux/"
 sudo dnf -y install dnf-plugins-core
-sudo dnf config-manager addrepo --from-repofile=https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
+sudo dnf config-manager --add-repo https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
 sudo dnf -y install brave-browser
 
 # Install Floorp (Flatpak version)
@@ -23,7 +23,8 @@ sudo dnf -y install wine
 
 # Utilities
 sudo dnf -y install hardinfo2
-sudo dnf -y install lm-sensors psensor
+sudo dnf -y install lm-sensors 
+sudo dnf -y install psensor
 sudo dnf -y install neofetch
 sudo dnf -y install htop
 sudo dnf -y install gparted
