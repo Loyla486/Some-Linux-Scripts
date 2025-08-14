@@ -1,1 +1,1 @@
-# Documents belong to their respective owners.
+# Document(s) belong/copyright to their respective owners.
