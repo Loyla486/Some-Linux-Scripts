@@ -33,8 +33,5 @@ sudo dnf -y install git
 # Upgrade All Installed Packages
 sudo dnf -y distro-sync
 
-# Other
-sudo dnf -y install brave-browser
-
 # Clean Up
 sudo dnf -y clean all
