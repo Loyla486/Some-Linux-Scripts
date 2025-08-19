@@ -1,6 +1,6 @@
 #!/bin/bash
 # Intended for Debian/Unbuntu Based Distros, with 128GB+ (118GiB+) of storage and for gaming.
-# Version 3
+# Version 4
 
 # Ensure curl is installed
 sudo apt install -y curl
@@ -46,6 +46,21 @@ sudo apt install -y git
 
 # Upgrade All Installed Packages
 sudo apt upgrade -y
+
+# Double Check if stuff is installed after upgrade
+sudo apt install -y lutris
+sudo apt install -y mangohud
+sudo apt install -y gamescope
+sudo apt install -y libvulkan1
+sudo apt install -y libvulkan1:i386
+sudo apt install -y brave-browser
+sudo apt install -y floorp
+sudo apt install -y hardinfo
+sudo apt install -y lm-sensors psensor
+sudo apt install -y neofetch
+sudo apt install -y htop
+sudo apt install -y gparted
+sudo apt install -y git
 
 # Clean Package Cache
 sudo apt clean
