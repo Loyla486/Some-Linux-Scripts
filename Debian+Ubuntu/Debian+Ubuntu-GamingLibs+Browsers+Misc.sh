@@ -1,6 +1,6 @@
 #!/bin/bash
 # Intended for Debian/Unbuntu Based Distros, with 128GB+ (118GiB+) of storage and for gaming.
-# Version 4
+# Version 3
 
 # Ensure curl is installed
 sudo apt install -y curl
