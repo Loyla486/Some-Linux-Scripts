@@ -1,5 +1,5 @@
 #!/bin/bash
-# Intended for OpenMandriva (or Fedora 40 or Under) based distros, and for new installs.
+# Intended for OpenMandriva, and for new installs.
 # Also intended for low stoarge PCs (32GB-64GB).
 # Version 1
 
