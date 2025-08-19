@@ -1,1 +1,1 @@
-# *These scripts are intended for OpenMandriva.*
+# *These scripts are intended for use with OpenMandriva.*
