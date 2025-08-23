@@ -1,6 +1,7 @@
 #!/bin/bash
 # Intended for Debian/Unbuntu Based Distros, with 128GB+ (118GiB+) of storage and for gaming.
-# Version 4
+# This is idealy meant for Gaming PCs, Everyday PCs, or PCs with alot of storage.
+# Version 4 Beta
 
 # Ensure curl is installed
 sudo apt install -y curl
