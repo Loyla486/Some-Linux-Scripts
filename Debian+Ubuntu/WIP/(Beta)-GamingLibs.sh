@@ -22,15 +22,15 @@ sudo curl -sS --compressed -o /etc/apt/sources.list.d/Floorp.list 'https://ppa.f
 # Code taken from Lutris Documentation
 sudo dpkg --add-architecture i386 && sudo apt update && sudo apt install -y wine64 wine32 libasound2-plugins:i386 libsdl2-2.0-0:i386 libdbus-1-3:i386 libsqlite3-0:i386
 
-# Install Apps/Libraries
-# Installing GameScope this way only works on Debian for now,
-# however it shouldn't hurt on an Ubuntu-Based system, it just may not install. GameScope may not work with Nvidia GPUs anyway.
+# Install Apps/Libraries:
 
 # Browsers
 sudo apt install -y brave-browser
 sudo apt install -y floorp
 
 # Gaming Stuff
+# Installing GameScope this way only works on Debian for now,
+# however it shouldn't hurt on an Ubuntu-Based system, it just may not install. GameScope may not work with Nvidia GPUs anyway.
 sudo apt install -y lutris
 sudo apt install -y mangohud
 sudo apt install -y gamescope
@@ -48,7 +48,7 @@ sudo apt install -y git
 # Upgrade All Installed Packages
 sudo apt upgrade -y
 
-# Double Check if stuff is installed after upgrade
+# Double Check if stuff is installed after upgrade since Mint sometimes disconnects in the middle of an update/upgrade.
 sudo apt install -y lutris
 sudo apt install -y mangohud
 sudo apt install -y gamescope
