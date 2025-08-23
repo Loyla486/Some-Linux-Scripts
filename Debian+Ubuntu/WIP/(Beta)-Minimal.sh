@@ -39,7 +39,7 @@ sudo apt install -y git
 # Upgrade All Installed Packages
 sudo apt upgrade -y
 
-# Double Check if stuff is installed after upgrade
+# Double Check if stuff is installed after upgrade since Mint sometimes disconnects in the middle of an update/upgrade.
 sudo apt install -y brave-browser
 sudo apt install -y floorp
 sudo apt install -y hardinfo
