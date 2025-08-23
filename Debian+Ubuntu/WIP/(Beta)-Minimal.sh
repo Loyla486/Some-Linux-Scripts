@@ -1,6 +1,6 @@
 #!/bin/bash
 # Intended for Debian/Unbuntu Based Distros and netbooks with low storage (32GB-64GB/28GiB-58GiB)
-# This is also intended for netbooks, chromebooks, and low end PCs..
+# This is also intended for netbooks, chromebooks, and/or low end PCs..
 # Version 3 Beta
 
 # Ensure curl is installed
