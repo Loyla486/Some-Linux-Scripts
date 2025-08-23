@@ -1,6 +1,6 @@
 #!/bin/bash
 # Intended for Debian/Unbuntu Based Distros, with 128GB+ (118GiB+) of storage and for gaming.
-# This is idealy meant for 32 bit support, Gaming PCs, and/or General Use PCs.
+# This is also intended for 32 bit support, gaming PCs, and/or general use PCs.
 # Version 4 Beta
 
 # Ensure curl is installed
