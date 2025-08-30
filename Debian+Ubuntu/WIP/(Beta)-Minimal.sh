@@ -32,7 +32,7 @@ sudo apt install -y libvulkan1
 # Utilities
 sudo apt install -y lm-sensors psensor
 sudo apt install -y neofetch
-sudo apt install -y festfetch
+sudo apt install -y fastfetch
 sudo apt install -y htop
 sudo apt install -y gparted
 sudo apt install -y git
