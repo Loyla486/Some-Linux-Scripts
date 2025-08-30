@@ -2,7 +2,7 @@
 # Intended for Debian/Unbuntu Based Distros, with 128GB+ (118GiB+) of storage and for gaming.
 # This is also intended for 32 bit support, gaming PCs, and/or general use PCs.
 # Version 4 Beta
-
+sudo apt install -y hardinfo
 # Ensure curl is installed
 sudo apt install -y curl
 
@@ -38,9 +38,9 @@ sudo apt install -y libvulkan1
 sudo apt install -y libvulkan1:i386
 
 # Utilities
-sudo apt install -y hardinfo
 sudo apt install -y lm-sensors psensor
 sudo apt install -y neofetch
+sudo apt install -y fastfetch
 sudo apt install -y htop
 sudo apt install -y gparted
 sudo apt install -y git
