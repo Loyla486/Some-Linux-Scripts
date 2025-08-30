@@ -3,6 +3,7 @@
 # This is also intended for netbooks, chromebooks, and/or low end PCs..
 # Version 3 Beta
 
+sudo apt install -y hardinfo
 # Ensure curl is installed
 sudo apt install -y curl
 
@@ -29,9 +30,9 @@ sudo apt install -y libvulkan1
 # sudo apt install -y libvulkan1:i386
 
 # Utilities
-sudo apt install -y hardinfo
 sudo apt install -y lm-sensors psensor
 sudo apt install -y neofetch
+sudo apt install -y festfetch
 sudo apt install -y htop
 sudo apt install -y gparted
 sudo apt install -y git
@@ -42,7 +43,6 @@ sudo apt upgrade -y
 # Double Check if stuff is installed after upgrade since Mint sometimes disconnects in the middle of an update/upgrade.
 sudo apt install -y brave-browser
 sudo apt install -y floorp
-sudo apt install -y hardinfo
 sudo apt install -y lm-sensors psensor
 sudo apt install -y neofetch
 sudo apt install -y htop
