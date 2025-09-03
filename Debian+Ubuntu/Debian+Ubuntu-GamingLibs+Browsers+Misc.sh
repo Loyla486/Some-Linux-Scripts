@@ -1,8 +1,8 @@
 #!/bin/bash
 # Intended for Debian/Unbuntu Based Distros, with 128GB+ (118GiB+) of storage and for gaming.
-# This is idealy meant for Gaming PCs, Everyday PCs, or PCs with alot of storage.
-# Version 3
-
+# This is also intended for 32 bit support, gaming PCs, and/or general use PCs.
+# Version 4
+sudo apt install -y hardinfo
 # Ensure curl is installed
 sudo apt install -y curl
 
@@ -29,8 +29,8 @@ sudo apt install -y brave-browser
 sudo apt install -y floorp
 
 # Gaming Stuff
-# Installing GameScope this way only works on Debian for now, however it shouldn't hurt on an Ubuntu-Based system, it just may not install.
-# GameScope may not work with Nvidia GPUs anyway.
+# Installing GameScope this way only works on Debian for now,
+# however it shouldn't hurt on an Ubuntu-Based system, it just may not install. GameScope may not work with Nvidia GPUs anyway.
 sudo apt install -y lutris
 sudo apt install -y mangohud
 sudo apt install -y gamescope
@@ -38,15 +38,30 @@ sudo apt install -y libvulkan1
 sudo apt install -y libvulkan1:i386
 
 # Utilities
-sudo apt install -y hardinfo
 sudo apt install -y lm-sensors psensor
 sudo apt install -y neofetch
+sudo apt install -y fastfetch
 sudo apt install -y htop
 sudo apt install -y gparted
 sudo apt install -y git
 
 # Upgrade All Installed Packages
 sudo apt upgrade -y
+
+# Double Check if stuff is installed after upgrade since Mint sometimes disconnects in the middle of an update/upgrade.
+sudo apt install -y lutris
+sudo apt install -y mangohud
+sudo apt install -y gamescope
+sudo apt install -y libvulkan1
+sudo apt install -y libvulkan1:i386
+sudo apt install -y brave-browser
+sudo apt install -y floorp
+sudo apt install -y hardinfo
+sudo apt install -y lm-sensors psensor
+sudo apt install -y neofetch
+sudo apt install -y htop
+sudo apt install -y gparted
+sudo apt install -y git
 
 # Clean Package Cache
 sudo apt clean
