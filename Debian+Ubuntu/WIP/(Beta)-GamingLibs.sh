@@ -2,7 +2,10 @@
 # Intended for Debian/Unbuntu Based Distros, with 128GB+ (118GiB+) of storage and for gaming.
 # This is also intended for 32 bit support, gaming PCs, and/or general use PCs.
 # Version 4 Beta
+
+# Start with hardinfo since newer versions requires attendance.
 sudo apt install -y hardinfo
+
 # Ensure curl is installed
 sudo apt install -y curl
 
