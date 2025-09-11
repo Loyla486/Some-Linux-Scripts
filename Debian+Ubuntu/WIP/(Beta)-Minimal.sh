@@ -2,7 +2,10 @@
 # Intended for Debian/Unbuntu Based Distros and netbooks with low storage (32GB-64GB/28GiB-58GiB)
 # This is also intended for netbooks, chromebooks, and/or low end PCs..
 # Version 3 Beta
+
+# Start with hardinfo since newer versions requires attendance.
 sudo apt install -y hardinfo
+
 # Ensure curl is installed
 sudo apt install -y curl
 
@@ -14,8 +17,7 @@ echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] http
 curl -fsSL https://ppa.floorp.app/KEY.gpg | sudo gpg --dearmor -o /usr/share/keyrings/Floorp.gpg
 sudo curl -sS --compressed -o /etc/apt/sources.list.d/Floorp.list 'https://ppa.floorp.app/Floorp.list'
 
-# Add 32-bit Library Support, and update the package lists.
-# sudo dpkg --add-architecture i386
+# Update Package List
 sudo apt update
 
 # Install Apps/Libraries:
@@ -26,7 +28,6 @@ sudo apt install -y floorp
 
 # Other Libraries
 sudo apt install -y libvulkan1
-# sudo apt install -y libvulkan1:i386
 
 # Utilities
 sudo apt install -y lm-sensors psensor
@@ -39,7 +40,7 @@ sudo apt install -y git
 # Upgrade All Installed Packages
 sudo apt upgrade -y
 
-# Double Check if stuff is installed after upgrade since Mint sometimes disconnects in the middle of an update/upgrade.
+# Double Check if stuff is installed after upgrade since Linux Mint sometimes disconnects in the middle of an update/upgrade.
 sudo apt install -y brave-browser
 sudo apt install -y floorp
 sudo apt install -y lm-sensors psensor
