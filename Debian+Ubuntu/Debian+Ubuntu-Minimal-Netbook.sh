@@ -26,7 +26,7 @@ sudo apt update
 sudo apt install -y brave-browser
 sudo apt install -y floorp
 
-# Other Libraries
+# Ensure Vulkan is installed
 sudo apt install -y libvulkan1
 
 # Utilities
@@ -43,6 +43,7 @@ sudo apt upgrade -y
 # Double Check if stuff is installed after upgrade since Linux Mint sometimes disconnects in the middle of an update/upgrade.
 sudo apt install -y brave-browser
 sudo apt install -y floorp
+sudo apt install -y libvulkan1
 sudo apt install -y lm-sensors psensor
 sudo apt install -y neofetch
 sudo apt install -y htop
