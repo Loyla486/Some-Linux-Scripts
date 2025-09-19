@@ -40,18 +40,29 @@ sudo apt install -y gamescope
 sudo apt install -y libvulkan1
 sudo apt install -y libvulkan1:i386
 
+# Partition Managers and related
+# sudo apt install -y partitionmanager
+# sudo apt install -y kde-partitionmanager
+# sudo apt install -y gnome-disk-utility
+sudo apt install -y gparted
+sudo apt install -y exfatprogs
+
 # Utilities
 sudo apt install -y lm-sensors psensor
 sudo apt install -y neofetch
 sudo apt install -y fastfetch
 sudo apt install -y htop
-sudo apt install -y gparted
 sudo apt install -y git
 
 # Upgrade All Installed Packages
 sudo apt upgrade -y
 
 # Double Check if stuff is installed after upgrade since Mint sometimes disconnects in the middle of an update/upgrade.
+sudo apt install -y partitionmanager
+sudo apt install -y kde-partitionmanager
+sudo apt install -y gnome-disk-utility
+sudo apt install -y gparted
+sudo apt install -y exfatprogs
 sudo apt install -y lutris
 sudo apt install -y mangohud
 sudo apt install -y gamescope
@@ -63,7 +74,6 @@ sudo apt install -y hardinfo
 sudo apt install -y lm-sensors psensor
 sudo apt install -y neofetch
 sudo apt install -y htop
-sudo apt install -y gparted
 sudo apt install -y git
 
 # Clean Package Cache
