@@ -29,25 +29,28 @@ sudo apt install -y floorp
 # Ensure Vulkan is installed
 sudo apt install -y libvulkan1
 
+# Partition Managers and related
+sudo apt install -y gparted
+
 # Utilities
 sudo apt install -y lm-sensors psensor
 sudo apt install -y neofetch
 sudo apt install -y fastfetch
 sudo apt install -y htop
-sudo apt install -y gparted
 sudo apt install -y git
 
 # Upgrade All Installed Packages
 sudo apt upgrade -y
 
 # Double Check if stuff is installed after upgrade since Linux Mint sometimes disconnects in the middle of an update/upgrade.
+sudo apt install -y exfatprogs
+sudo apt install -y gparted
 sudo apt install -y brave-browser
 sudo apt install -y floorp
 sudo apt install -y libvulkan1
 sudo apt install -y lm-sensors psensor
 sudo apt install -y neofetch
 sudo apt install -y htop
-sudo apt install -y gparted
 sudo apt install -y git
 
 # Clean Package Cache
