@@ -16,3 +16,4 @@ curl https://download.flashpointarchive.org/upload/fp14.0.2_lin_main_20250820.7z
 ./Flashpoint/setup-desktop-entry.sh
 
 # https://download.flashpointarchive.org/upload/fp_lin_libs_20250722.7z
+# libgtk2.0-0 libxt6
