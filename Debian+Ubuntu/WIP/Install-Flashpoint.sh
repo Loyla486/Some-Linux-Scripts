@@ -11,6 +11,7 @@ sudo apt install curl libgtk-3-0 libnss3 php 7zip wine wine64 wine32 libxcomposi
 
 # Download and install Flashpoint
 curl https://download.flashpointarchive.org/upload/fp14.0.2_lin_main_20250820.7z --remote-name
+#  Extract the Flashpoint Files
 7zr x fp*_lin_main_*.7z -oFlashpoint
 
 # Attempt to make a shortcut on the desktop
@@ -18,4 +19,4 @@ curl https://download.flashpointarchive.org/upload/fp14.0.2_lin_main_20250820.7z
 
 # Optional Stuff
 # https://download.flashpointarchive.org/upload/fp_lin_libs_20250722.7z
-# libgtk2.0-0 libxt6
+# sudo apt install libgtk2.0-0 libxt6
