@@ -1,3 +1,4 @@
+#!/bin/bash
 # run in your home/<user> directory!
 sudo dpkg --add-architecture i386
 
