@@ -11,6 +11,8 @@ sudo apt install curl libgtk-3-0 libnss3 php 7zip wine wine64 wine32 libxcomposi
 # pulseaudio / pipewire-pulse should hopfully beinstalled
 
 # Download and install Flashpoint
-curl https://download.flashpointarchive.org/upload/fp_lin_libs_20250722.7z --remote-name
+curl https://download.flashpointarchive.org/upload/fp14.0.2_lin_main_20250820.7z --remote-name
 7zr x fp*_lin_main_*.7z -oFlashpoint
 ./Flashpoint/setup-desktop-entry.sh
+
+# https://download.flashpointarchive.org/upload/fp_lin_libs_20250722.7z
