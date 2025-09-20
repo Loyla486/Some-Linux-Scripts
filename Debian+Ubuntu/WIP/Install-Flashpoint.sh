@@ -16,6 +16,7 @@ curl https://download.flashpointarchive.org/upload/fp14.0.2_lin_main_20250820.7z
 
 # Attempt to make a shortcut on the desktop
 ./Flashpoint/setup-desktop-entry.sh
+cp ./Flashpoint/Flashpoint.desktop ./Desktop/
 
 # Optional Stuff
 # https://download.flashpointarchive.org/upload/fp_lin_libs_20250722.7z
