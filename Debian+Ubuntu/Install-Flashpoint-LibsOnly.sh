@@ -10,4 +10,4 @@ sudo apt install libgtk-3-0 libnss3 php 7zip wine wine64 wine32 libxcomposite1:i
 # Optional Stuff
 # https://download.flashpointarchive.org/upload/fp_lin_libs_20250722.7z
 # sudo apt install libgtk2.0-0 libxt6
-# pulseaudio / pipewire-pulse should hopfully preinstalled
+# pulseaudio / pipewire-pulse should hopfully be installed
