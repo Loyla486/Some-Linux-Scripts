@@ -2,6 +2,7 @@
 # run in your home/<user> directory!
 sudo dpkg --add-architecture i386
 sudo apt update
+sudo apt install curl -y
 
 # Package names from: https://flashpointarchive.org/datahub/Linux_Support#Dependencies
 # Install needed packages
