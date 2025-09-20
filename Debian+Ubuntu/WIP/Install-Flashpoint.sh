@@ -1,10 +1,11 @@
 #!/bin/bash
 # run in your home/<user> directory!
 sudo dpkg --add-architecture i386
+sudo apt update
 
 # Package names from: https://flashpointarchive.org/datahub/Linux_Support#Dependencies
 # Install needed packages
-sudo apt install curl libgtk-3-0 libnss3 php 7zip wine libxcomposite1:i386 libpulse0:i386 -y
+sudo apt install curl libgtk-3-0 libnss3 php 7zip wine win64 wine32 libxcomposite1:i386 libpulse0:i386 -y
 
 # pulseaudio / pipewire-pulse should hopfully beinstalled
 
