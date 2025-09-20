@@ -7,7 +7,7 @@ sudo apt install curl -y
 # Install needed packages
 sudo apt install curl libgtk-3-0 libnss3 php 7zip wine wine64 wine32 libxcomposite1:i386 libpulse0:i386 -y
 
-# pulseaudio / pipewire-pulse should hopfully beinstalled
+# pulseaudio / pipewire-pulse should hopfully be installed
 
 # Download and install Flashpoint
 curl https://download.flashpointarchive.org/upload/fp14.0.2_lin_main_20250820.7z --remote-name
