@@ -24,7 +24,8 @@ sudo apt update
 
 # Browsers
 sudo apt install -y brave-browser
-sudo apt install -y floorp
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+flatpak install flathub one.ablaze.floorp -y
 
 # Ensure Vulkan is installed
 sudo apt install -y libvulkan1
@@ -46,7 +47,7 @@ sudo apt upgrade -y
 sudo apt install -y exfatprogs
 sudo apt install -y gparted
 sudo apt install -y brave-browser
-sudo apt install -y floorp
+flatpak install flathub one.ablaze.floorp -y
 sudo apt install -y libvulkan1
 sudo apt install -y lm-sensors psensor
 sudo apt install -y neofetch
