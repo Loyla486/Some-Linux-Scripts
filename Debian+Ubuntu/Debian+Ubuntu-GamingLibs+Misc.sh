@@ -83,7 +83,9 @@ sudo apt clean
 
 # Give users the option to remove Firefox and Thunderbird.
 # echo Press any key to remove Firefox and Thunderbird
-read -p "Press any key to remove Firefox and Thunderbird, otherwise press CTRL+C or close the window"
+read -p " (1/3) Press any key to remove Firefox and Thunderbird, otherwise press CTRL+C or close the window"
+read -p " (2/3) Press any key to remove Firefox and Thunderbird, otherwise press CTRL+C or close the window"
+read -p " (3/3) LAST CHANCE! Press any key to remove Firefox and Thunderbird, otherwise press CTRL+C or close the window"
 sudo apt remove firefox* -y
 sudo apt remove thunderbird* -y
 sudo apt clean
