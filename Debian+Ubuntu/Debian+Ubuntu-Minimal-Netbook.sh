@@ -1,6 +1,7 @@
 #!/bin/bash
 # Intended for Debian/Unbuntu Based Distros and netbooks with low storage (32GB-64GB/28GiB-58GiB)
 # This is also intended for netbooks, chromebooks, and/or low end PCs..
+# This will remove Firefox and Thunderbird!
 # Version 4 Beta
 
 # Start with hardinfo since newer versions requires attendance.
