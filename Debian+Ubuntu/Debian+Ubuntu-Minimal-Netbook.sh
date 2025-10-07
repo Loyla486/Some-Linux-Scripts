@@ -55,5 +55,9 @@ sudo apt install -y neofetch
 sudo apt install -y htop
 sudo apt install -y git
 
+# Removes Firefox, Thunderbird, and the locales to save a few hundred megs.
+sudo apt remove firefox* -y
+sudo apt remove thunderbird* -y
+
 # Clean Package Cache
 sudo apt clean
