@@ -2,7 +2,7 @@
 # Intended for Debian/Unbuntu Based Distros and netbooks with low storage (32GB-64GB/28GiB-58GiB)
 # This is also intended for netbooks, chromebooks, and/or low end PCs..
 # This will remove Firefox and Thunderbird!
-# Version 5
+# Version 5 (Version Synced with main script)
 
 # Start with hardinfo since newer versions requires attendance.
 sudo apt install -y hardinfo
