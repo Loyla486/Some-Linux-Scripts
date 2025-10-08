@@ -1,7 +1,7 @@
 #!/bin/bash
 # Intended for Debian/Unbuntu Based Distros, with 128GB+ (118GiB+) of storage and for gaming.
 # This is also intended for 32 bit support, gaming PCs, and/or general use PCs.
-# Version 5 Beta
+# Version 5
 
 # Start with hardinfo since newer versions requires attendance.
 sudo apt install -y hardinfo
