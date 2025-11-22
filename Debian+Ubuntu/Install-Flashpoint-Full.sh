@@ -1,5 +1,6 @@
 #!/bin/bash
 # run in your home/<user> directory!
+cd ~
 sudo dpkg --add-architecture i386 && sudo apt update
 sudo apt install curl -y
 
@@ -15,6 +16,7 @@ curl https://download.flashpointarchive.org/upload/fp14.0.2_lin_main_20250820.7z
 7zr x fp*_lin_main_*.7z -oFlashpoint
 
 # Attempt to make a shortcut on the desktop
+mkdir ~/.local/share/applications/
 ./Flashpoint/setup-desktop-entry.sh
 cp ./Flashpoint/Flashpoint.desktop ./Desktop/
 
