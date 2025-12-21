@@ -2,7 +2,7 @@
 # Intended for Debian/Unbuntu Based Distros and netbooks with low storage (32GB-64GB/28GiB-58GiB)
 # This is also intended for netbooks, chromebooks, and/or low end PCs..
 # This will remove Firefox and Thunderbird!
-# Version 5 (Version Synced with main script)
+# Version 6 (Version Synced with main script)
 
 # Start with hardinfo since newer versions requires attendance.
 sudo apt install -y hardinfo
@@ -51,10 +51,12 @@ sudo apt install -y neofetch
 sudo apt install -y htop
 sudo apt install -y git
 
+# Ensure HyFetch is removed
+sudo apt remove hyfetch -y
+
 # Removes Firefox, Thunderbird, and the locales to save a few hundred megs.
 sudo apt remove firefox* -y
 sudo apt remove thunderbird* -y
-sudo apt remove hyfetch -y
 
 # Clean Package Cache
 sudo apt clean
