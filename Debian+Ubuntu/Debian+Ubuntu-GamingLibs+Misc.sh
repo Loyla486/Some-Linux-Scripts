@@ -1,7 +1,7 @@
 #!/bin/bash
 # Intended for Debian/Unbuntu Based Distros, with 128GB+ (118GiB+) of storage and for gaming.
 # This is also intended for 32 bit support, gaming PCs, and/or general use PCs.
-# Version 5
+# Version 6
 
 # Start with hardinfo since newer versions requires attendance.
 sudo apt install -y hardinfo
@@ -75,6 +75,9 @@ sudo apt install -y git
 
 # Clean Package Cache
 sudo apt clean
+
+# Remove HyFetch if installed
+sudo apt remove hyfetch -y
 
 # Give users the option to remove Firefox and Thunderbird.
 # echo Press any key to remove Firefox and Thunderbird
